@@ -1,0 +1,55 @@
+html {/*font-size: 62.5%;*/}
+
+                                /*HEADER*/
+.cabecera h1 {padding-top: 15px;
+}
+                                /*CARRUSEL*/
+.d-block {height: 40rem; border-radius: 20px;
+}
+
+                                /*INFORMACION*/
+#info {display: flex; flex-flow: column wrap; justify-content: center; 
+    height: 28rem; padding: 35px 20px 0px 20px;
+    background-color: rgb(171, 241, 114); 
+}
+.info__h3 {/*justify-self: center; */align-self: center;   
+    margin: 0px 20px 35px 20px;
+ }
+ .info__h5 {/*justify-self: center;*/ align-self: center; 
+    margin: 20px 0px 0px 0px;
+    }
+
+                                /*CONTACTO*/
+#contacto {display: flex; flex-flow: row;
+    height: 28rem;
+    background-color: rgb(247, 252, 243);               
+}
+    .col-xl-6--cont {align-self: flex-start; 
+        margin-top: 15px;
+
+    }
+    .col-xl-6--mapa {
+        height: 28rem; border: 0px; margin: 0px;
+        align-self: flex-end;
+
+    }
+                                /*FOOTER*/
+footer { 
+    display: flex; flex-flow: column wrap; align-content: space-around; 
+    height: 25rem; width: 100%; margin: 0px; padding: 40px 0px 0px 0px; 
+    background-color: rgb(171, 241, 114);
+}
+    .footer__titulo {
+        text-align: center;
+        margin-top: 0px; margin-bottom: 25px;
+    }
+    .footer__linea {
+        align-self: center;
+        width: 160px; height: 2px; margin-top: 40px; margin-bottom: 0px;
+        background-color: black; 
+    }
+    .footer__cont {margin: 15px;
+    }
+    .footer__img {align-self: center;
+        height: 120px; width: 120px; margin-top: 35px; margin-bottom: 0px;
+        background-color: rgb(226, 211, 206);}

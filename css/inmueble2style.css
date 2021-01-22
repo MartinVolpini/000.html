@@ -1,0 +1,37 @@
+                                /*NAVEGACION*/
+nav {background-color: black; text-align: center;
+}
+    nav .nav-link{color: white; 
+    }
+                                /*CABECERA*/
+h1 {margin: 10px;
+}
+hr {padding: 0px; margin: 0px;
+}
+.padre {display: flex; flex-flow: row ;
+}
+    p {margin: 10px;
+    }
+    img {align-self: flex-end;
+        height: 450px; margin: 0px 0px 0px 0px;
+    }
+                                /*FOOTER*/
+footer { 
+    display: flex; flex-flow: column wrap; align-content: space-around; 
+    height: 22rem; width: 100%; margin: 0px; padding: 40px 0px 0px 0px; 
+    background-color: rgb(171, 241, 114);
+}
+.footer__titulo {
+    text-align: center;
+    margin-top: 0px; margin-bottom: 22px;
+}
+.footer__linea {
+    align-self: center;
+    width: 160px; height: 2px; margin-top: 40px; margin-bottom: 0px;
+    background-color: black; 
+}
+.footer__cont {margin: 15px;
+}
+.footer__img {align-self: center;
+    height: 100px; width: 120px; margin-top: 30px; margin-bottom: 0px;
+    background-color: rgb(226, 211, 206);}
