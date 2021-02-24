@@ -1,5 +1,5 @@
 html {/*font-size: 62.5%;*/}
-
+body { font-family: 'Source Serif Pro', serif;}
                                 /*HEADER*/
 .cabecera h1 {padding-top: 15px;
 }
@@ -8,27 +8,28 @@ html {/*font-size: 62.5%;*/}
 }
 
                                 /*INFORMACION*/
-#info {display: flex; flex-flow: column wrap; justify-content: center; 
-    height: 28rem; padding: 35px 20px 0px 20px;
-    background-color: rgb(171, 241, 114); 
+#info {
+    display: flex; flex-flow: column wrap; justify-content: center;  
+    height: 28rem; width: 100%; padding: 35px 20px 0px 20px;
+    background-color: rgb(171, 241, 114); text-align: center;
 }
-.info__h3 {/*justify-self: center; */align-self: center;   
+    .info__h3 {align-self: center;   
     margin: 0px 20px 35px 20px;
- }
- .info__h5 {/*justify-self: center;*/ align-self: center; 
+    }
+    .info__h5 {align-self: center; 
     margin: 20px 0px 0px 0px;
     }
 
                                 /*CONTACTO*/
-#contacto {display: flex; flex-flow: row;
+#contacto {display: flex; flex-flow: row wrap;
     height: 28rem;
     background-color: rgb(247, 252, 243);               
 }
-    .col-xl-6--cont {align-self: flex-start; 
-        margin-top: 15px;
+    .col--cont {align-self: flex-start; 
+        margin: 15px 0px;  
 
     }
-    .col-xl-6--mapa {
+    .col--mapa {
         height: 28rem; border: 0px; margin: 0px;
         align-self: flex-end;
 
@@ -36,7 +37,7 @@ html {/*font-size: 62.5%;*/}
                                 /*FOOTER*/
 footer { 
     display: flex; flex-flow: column wrap; align-content: space-around; 
-    height: 25rem; width: 100%; margin: 0px; padding: 40px 0px 0px 0px; 
+    height: 25rem; width: 100%; padding: 40px 0px 0px 0px;  margin: 0px; 
     background-color: rgb(171, 241, 114);
 }
     .footer__titulo {
@@ -53,3 +54,23 @@ footer {
     .footer__img {align-self: center;
         height: 120px; width: 120px; margin-top: 35px; margin-bottom: 0px;
         background-color: rgb(226, 211, 206);}
+
+@media only screen and (max-width: 768px) { 
+.info__h3 {
+    font-size: 1.3rem;
+}
+.info__h5 {
+    font-size: 1rem;
+}
+
+#contacto {
+    height: 31rem;
+}
+    .col--cont {
+        height: 12rem;
+    }
+    .col--mapa {
+        height: 12rem; margin: 10px 0px; z-index: 3;
+    }
+footer {overflow: hidden;}
+} 

@@ -1,12 +1,28 @@
+body { font-family: 'Source Serif Pro', serif;}
 
-#contacto{ margin: 0px 0px 10px 0px; background-color: rgb(10, 10, 10);}
-#social ul{list-style: none;}
-#social li{display: inline-block;}
-.nectar-center-text{text-align: end; padding: 0px 20px; color: white;}
+h2 {padding: 20px 20px 0px 20px;
+}
 
-h2{padding: 20px 20px 0px 20px;}
+                                    /*NAVEGACION*/
+nav {background-color: black; 
+}
+    nav .nav-link {color: white;
+    }
+                                    /*El PRODUCTO*/
+.card {margin: 20px ;
+}
 
-.card{margin: 20px ;}
+                                    /*FOOTER*/
+#contacto {margin: 10px 0px 0px 0px; background-color: rgb(10, 10, 10);
+}
+    #social {list-style: none;
+    }
+        #social li {display: inline-block;
+        }
+.nectar-center-text {text-align: end; padding: 0px 20px; color: white;
+}
 
-footer{background-color: black; text-align: center;}
-footer .nav-link{color: white; }
+@media only screen and (max-width: 768px) {
+.row--producto {display: flex; flex-flow: column; align-items: stretch;}
+.card {align-self: center;}   
+}
